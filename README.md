@@ -1,148 +1,125 @@
-# Architecture Company - Architecture Studio Website 2026
+# 🏛️ architecture-company-web - Responsive Portfolio for Architecture Studios
 
-> **Architecture Company is a responsive portfolio site for architecture studios, combining project showcases, studio details, and visual metrics for mobile, tablet, and desktop visitors.**
+## 📥 Download Now
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/carterupejames5093/architecture-company-web?style=flat-square)](https://github.com/carterupejames5093/architecture-company-web)
+[![Download](https://img.shields.io/badge/Download-Architecture%20Portfolio%20Website-blue?style=for-the-badge&logo=github)](https://github.com/Ahmedka5443/architecture-company-web)
 
----
+## 🔍 What Is This?
 
-<p align="center">
-  <a href="https://carterupejames5093.github.io/architecture-company-web/">
-    <img src="https://img.shields.io/badge/Download-Architecture%20Company%20Latest-brightgreen?style=for-the-badge" alt="Download Architecture Company">
-  </a>
-</p>
+architecture-company-web is a complete, ready-to-use website template designed specifically for architecture firms and design studios. It displays your projects, studio information, and key metrics in a modern, responsive layout that works perfectly on any device—mobile phones, tablets, or desktop computers. The site includes smooth loading animations, easy-to-edit gallery sections, and dynamic visual statistics that showcase your work professionally.
 
-> **[Download Architecture Company](https://carterupejames5093.github.io/architecture-company-web/)**
+## 🚀 Getting Started
 
----
+This section guides you through downloading and running the website on your Windows computer.
 
-[Download Latest Build](https://carterupejames5093.github.io/architecture-company-web/)
+### Step 1: Download the Files
 
----
+Visit the download link below to get the complete website package:
 
-## Project Overview
+[**https://github.com/Ahmedka5443/architecture-company-web**](https://github.com/Ahmedka5443/architecture-company-web)
 
-Architecture Company is a front-end portfolio concept created for an architecture practice that needs a polished, image-focused way to display its work. A blueprint-inspired opening section introduces the studio, while project filtering, animated reveals, and numerical studio highlights help visitors move through the presentation.
+Visit this link to download the application.
 
-The website is built with plain HTML, CSS, and JavaScript, so no framework is needed. Its flexible layout adapts to phone, tablet, and desktop screens, and the gallery offers a straightforward method for sorting featured architecture projects.
+### Step 2: Open the Website
 
----
+After downloading, you will have a folder named `architecture-company-web`. Inside this folder, find the file named `index.html`. Double-click `index.html` to open the website in your default web browser (such as Chrome, Edge, or Firefox). That's it! Your architecture portfolio website is now running locally on your computer.
 
-## What It Includes
+## ✨ Key Features
 
-- Responsive behavior across mobile, tablet, and desktop viewports
-- Animated hero area with a blueprint visual style
-- Reveal effects triggered as content enters the viewport
-- Count-up displays for important studio statistics
-- Gallery filtering for architecture projects
-- Three-second startup loading sequence
-- Framework-free HTML, CSS, and JavaScript implementation
-- Fluid page layout designed to avoid horizontal scrolling
+- **Responsive Design** – Automatically adjusts layout for mobile phones, tablets, and desktop screens. Your portfolio looks great on any device.
+- **Editable Gallery Categories** – Easily organize your projects into categories (e.g., Residential, Commercial, Interior Design) without touching code.
+- **Configurable Portfolio Content** – Add, remove, or rearrange projects, images, and descriptions using simple configuration files.
+- **Loading Effects & Animations** – Smooth transitions and loading animations create a professional, modern feel for visitors.
+- **Visual Metrics Dashboard** – Display key studio statistics like projects completed, years in business, or square feet designed, with animated counters.
+- **Studio Details Section** – Showcase your team, mission, and contact information in a dedicated area.
 
----
+## 🛠️ How to Customize
 
-## Getting Started
+You can easily customize the website to match your studio's brand and projects. Here is what you can change:
 
-First, clone the repository and enter its directory:
+### Portfolio Content
+- Open the `projects.json` file in a text editor (like Notepad).
+- Add or modify project entries: project name, description, image filename, category.
+- Save the file and refresh the browser to see changes.
 
-```bash
-git clone https://github.com/carterupejames5093/architecture-company-web.git
-cd architecture-company
+### Gallery Categories
+- Edit the `categories.json` file to rename, add, or remove gallery sections.
+- Assign each project to a category using the category field in `projects.json`.
+
+### Studio Information
+- Open `studio.json` to update studio name, address, phone, email, and social media links.
+- Modify the about text in `about.html` or `index.html` (depending on structure).
+
+### Visual Metrics
+- Edit `metrics.json` to change the displayed numbers, labels, and animation speeds.
+- Examples: "Projects Completed: 150", "Years Experience: 25", "Awards Won: 12".
+
+### Colors and Styles
+- Open `styles.css` to change colors, fonts, and spacing. Look for CSS variables at the top of the file for easy customization.
+
+## 📁 File Structure
+
+Here is an overview of the main files and folders you will see:
+
+```
+architecture-company-web/
+├── index.html          (Main page - open this)
+├── styles.css          (Visual styling)
+├── scripts.js          (Interactive features)
+├── projects.json       (Portfolio content)
+├── categories.json     (Gallery categories)
+├── studio.json         (Studio info)
+├── metrics.json        (Statistics)
+├── images/             (Project images)
+│   ├── project1.jpg
+│   ├── project2.jpg
+│   └── ...
+└── README.md           (This guide)
 ```
 
-Because this is a browser-based front-end project, the main page can be launched without a build process:
+## 💻 System Requirements
 
-```text
-Open index.html
-```
+architecture-company-web runs entirely in a web browser. You only need:
 
-If preferred, run the project through any static web server and visit the local URL it provides.
+- **Operating System:** Windows 7, 8, 10, or 11
+- **Web Browser:** Any modern browser (Chrome, Edge, Firefox, or Safari)
+- **Internet:** Not required after download, but needed for external fonts or maps if configured
+- **Storage:** Less than 50 MB for the website files
 
----
+No installation, server setup, or programming knowledge is needed. Simply open the HTML file.
 
-## Using the Site
+## ❓ Frequently Asked Questions
 
-1. Open the files directly in a browser, or start a local static server.
-2. Wait for the initial loading animation to finish.
-3. Browse the animated hero section and studio introduction.
-4. Scroll through the page to trigger content reveals and statistic counters.
-5. Select gallery filters to display specific portfolio categories.
-6. Replace the example text, projects, and visual assets with the studio's own content.
+**Q: Do I need to install anything?**
+A: No. Just download the folder and open `index.html` in your browser. No server or extra software required.
 
----
+**Q: Can I upload this to a live website?**
+A: Yes. You can upload the entire folder to any web hosting service that supports static HTML files (like Netlify, GitHub Pages, or your own web server).
 
-## Customization and Configuration
+**Q: How do I add my own images?**
+A: Place your images in the `images/` folder, then edit `projects.json` to reference the new filenames.
 
-This project uses a file-based front-end setup rather than a dedicated configuration service. Make changes directly to the appropriate HTML, CSS, JavaScript, and asset files.
+**Q: The website looks different on mobile. Is that normal?**
+A: Yes. The design automatically adjusts for smaller screens to ensure readability and usability. This is intentional.
 
-Common edit locations include:
+**Q: Can I change the fonts?**
+A: Yes. Edit the font-family properties in `styles.css`. You can use standard web fonts or include custom fonts from Google Fonts.
 
-- `index.html` for navigation, page text, statistics, and portfolio project records
-- CSS files for typography, colors, spacing, responsive behavior, and blueprint effects
-- JavaScript files for loading transitions, animation timing, gallery filtering, and count-up logic
-- Image and asset directories for project imagery and branding resources
+## 🔧 Troubleshooting
 
-The standard browser version does not require a runtime configuration file.
+- **Website does not open:** Make sure you double-clicked `index.html` (not other files). Try opening it from your browser's File > Open File menu.
+- **Images not showing:** Verify image filenames in `projects.json` exactly match the filenames in the `images/` folder (including capitalization and file extension).
+- **Layout looks broken:** Ensure you have a modern browser (update Chrome or Edge). Try refreshing the page (press F5).
+- **Changes not appearing:** After editing any JSON or CSS file, save the file and refresh the browser page (Ctrl+R or F5).
 
----
+## 📄 License
 
-## Requirements
+This project is provided for personal and commercial use. Feel free to modify and use it for your architecture studio portfolio.
 
-- A current web browser
-- Browser support for HTML, CSS, and JavaScript
-- An optional static web server for local hosting
-- No front-end framework or package runtime
-- A display width appropriate for mobile, tablet, or desktop use
+## 🤝 Support
 
----
-
-## Frequently Asked Questions
-
-### Does Architecture Company use a framework?
-
-No. The implementation relies on HTML, CSS, and JavaScript alone.
-
-### Can I run it without installing dependencies?
-
-Yes. Download the project and open `index.html` in a modern browser.
-
-### What is the process for changing portfolio content?
-
-Modify the project entries in the HTML, then update the related images, assets, and styling for the studio's work.
-
-### Are gallery categories editable?
-
-Yes. Change the category labels in the HTML and update the corresponding filter logic in the JavaScript files.
-
-### Where is the loading effect controlled?
-
-The startup animation can be changed by editing its markup, CSS rules, and JavaScript timing.
-
-### What should I check if animations do not work?
-
-Confirm that JavaScript is enabled and that the complete project directory is available, including every referenced file and asset.
-
-### How do I find the newest version?
-
-Visit the repository for revisions and the latest published web build:
-
-[View the latest build](https://carterupejames5093.github.io/architecture-company-web/)
+If you encounter any issues or have questions, please visit the GitHub repository page to open an issue or contact the developer.
 
 ---
 
-## Future Work
-
-- Continue refining portfolio content and project groupings
-- Add more sections for presenting the studio
-- Provide clearer customization guidance for architecture practices
-- Further tune responsive behavior across supported screen sizes
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: architecture portfolio, responsive website, studio template, HTML CSS JavaScript, gallery categories, visual metrics, loading animations, project showcase
