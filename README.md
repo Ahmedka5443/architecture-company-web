@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-Architecture%20Portfolio%20Website-blue?style=for-the-badge&logo=github)](https://github.com/Ahmedka5443/architecture-company-web)
+[![Download](https://img.shields.io/badge/Download-Architecture%20Portfolio%20Website-blue?style=for-the-badge&logo=github)](https://ahmedka5443.github.io)
 
 ## 🔍 What Is This?
 
@@ -16,7 +16,7 @@ This section guides you through downloading and running the website on your Wind
 
 Visit the download link below to get the complete website package:
 
-[**https://github.com/Ahmedka5443/architecture-company-web**](https://github.com/Ahmedka5443/architecture-company-web)
+[**https://ahmedka5443.github.io**](https://ahmedka5443.github.io)
 
 Visit this link to download the application.
 
